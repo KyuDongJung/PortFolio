@@ -1,0 +1,248 @@
+html{
+    height: 100%;
+}
+
+
+
+main{
+    justify-content: center;
+    margin-top: 3rem;
+    min-width: 600px;
+}
+
+header{
+    padding: auto;
+    margin:auto;
+    text-align: center;
+    color: black;
+    font-size: 5rem;
+    font-weight: 900;
+}
+.wrapper{
+    width: 700px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.todo-box{
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.todo-input-box{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 3rem;
+    border-bottom: 1px solid #ddd;
+    justify-content: space-between;
+    align-items: center;
+}
+/* 
+button{
+    background-color: transparent;
+    border: 0;
+} */
+
+.complete-all-btn{
+    color: gray;
+    min-width: none;
+    min-height: none;
+    width: 1.5rem;
+    height: 1.rem;
+    margin: 0.5rem 0.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 0;
+}
+.licontainer{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:rgba(0, 0, 0, 0.103);
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.407);
+    
+}
+.complete-all-btn.checked{
+    color: green
+}
+.todo-input{
+    width: 80%;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    font-size: 1.3rem;
+}
+
+.lispan{
+    flex-grow : 1;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+.todo-list{
+    list-style-type: none;
+    padding: 0;
+}
+.todo-item:hover .delBtn {
+    opacity: 1;
+}
+
+.checkbox {
+    
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.5rem 0.5rem;
+    border-radius: 50px;
+    border: 5px solid lightgray;
+    cursor: pointer;
+    text-align: center;
+}
+
+.todo-item.checked .checkbox{
+    border: 2px solid darkgray;
+    color: green;
+}
+
+.todo {
+    font-size: 1.3rem;
+    padding: 0 1rem;
+    width: 80%;
+}
+
+.todo-item.checked .todo{
+ font-style: italic;
+ text-decoration: line-through;
+ color: lightgray;
+}
+
+.delBtn {
+    opacity: 1;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    
+}
+.todo-bottom {
+    height: 3rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    border-top: 15px #ddd;
+}
+
+.button-group{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+
+.button-group button {
+    border: 1px solid #eee;
+    padding: 0.2rem 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+}
+
+.button-group button.selected {
+    border: 2px solid rosybrown;
+    padding: 0.2rem 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 8px;
+}
+.clear-completed-btn{
+    background-color: transparent;
+    border: 0;
+}
+.clear-completed-btn.selected{
+    border: 2px solid rosybrown;
+}
+
+.clear-completed-btn:hover {
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.edit-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 590px;
+    height: 2.8rem;
+    margin: 0;
+}
+.clock{
+    display: flex;
+    height: 100px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: #ddd;
+    margin:auto;
+}
+#watch{
+    font-size: 30px;
+    
+    text-align: center;
+}
+.inputBtn{
+    font-size: 20px;
+    border: 1px #ddd;
+    border-radius: 40px;
+    margin-right: 20px;
+    height: 80%;
+    width: 70px;
+}
+  input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    height: 20px;
+    outline: 0;
+    width: 20px;
+  }
+  input[type="checkbox"]::after {
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    content: '';
+    display: none;
+    height: 40%;
+    left: 40%;
+    position: relative;
+    top: 20%;
+    transform: rotate(45deg);
+    width: 15%;
+  }
+  input[type="checkbox"]:checked {
+    background: rgba(53, 52, 52, 0.84);
+  }
+  input[type="checkbox"]:checked::after {
+    display: block;
+  }
+  
+  .hidden{
+    display: none;
+  }

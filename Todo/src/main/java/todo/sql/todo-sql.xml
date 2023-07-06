@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>member-sql.xml</comment>
+	
+	<entry key="addList">
+		INSERT INTO TODO_LIST(LIST_NO, LIST_TITLE, LIST_DATE, COMPLETE)
+		VALUES (LIST_NO_SEQ.NEXTVAL, ?, SYSDATE, 'N')
+	</entry>
+	<entry key="updateList">
+		UPDATE TODO_LIST SET
+		COMPLETE = 'Y'
+		WHERE LIST_TITLE  = ?
+	</entry>
+	
+	<entry key="updateList2">
+		UPDATE TODO_LIST SET
+		COMPLETE = 'N'
+		WHERE LIST_TITLE  = ?
+	</entry>
+	
+	<entry key="deleteList">
+		DELETE FROM TODO_LIST
+		WHERE LIST_TITLE = ?
+	</entry>
+	
+	<entry key="alldelete">
+		DELETE FROM TODO_LIST
+		WHERE COMPLETE = 'Y'
+	</entry>
+	
+	<entry key="selectAll">
+		SELECT LIST_NO, LIST_TITLE, TO_CHAR(LIST_DATE, 'MM') AS MON, TO_CHAR(LIST_DATE, 'DD') AS DAY, COMPLETE
+		FROM TODO_LIST
+	</entry>
+	
+	<entry key="selectComplete">
+		SELECT COMPLETE FROM TODO_LIST
+		WHERE LIST_TITLE = ?
+	</entry>
+</properties>

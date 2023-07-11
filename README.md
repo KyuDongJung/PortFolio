@@ -31,8 +31,8 @@ Final Project
 - 예약정보 확인 페이지 및 결제방식 선택
 - 결제 방식에 따른 예약상태 구분 및 관리자 로그인 시 예약 확정 기능
 
-<div style="text-align: center;">
-    <div style="text-align: center;">
+<div align: center;">
+    <div align: center;">
     Stack<br><br>
 </div>
 	<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white" />

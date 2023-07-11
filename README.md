@@ -1,15 +1,15 @@
 # PortFolio
 Final Project
 
-#### Camp with Us
+## Camp with Us
 
-<span style="font-size: 20px; font-weight: bold;">프로젝트 설명</span>
+### 프로젝트 설명
 - 캠핑장 검색 및 예약 웹사이트
 
-<span style="font-size: 20px; font-weight: bold;">개발 목적</span>
+### 개발 목적
 - 꾸준히 늘어나는 캠핑 수요에 따라 쉽고 빠른 캠핑장 검색 및 예약을 돕는 사이트 개발
 
-<span style="font-size: 20px; font-weight: bold;">전체 기능</span>
+### 전체 기능
 - 캠핑장 검색기능(고캠핑 Api이용)
 - 캠핑장 예약 및 결제
 - 회원 가입 및 로그인 기능(일반 및 소셜(구글, 네이버, 카카오)) - 일반회원, 관리자 회원
@@ -23,7 +23,7 @@ Final Project
 - 추천 캠핑장
 
 
-<span style="font-size: 20px; font-weight: bold;">내가 맡은 역할</span>
+### 내가 맡은 역할
 - 기상청 Api와 OpenWeather Api를 이용한 날씨정보 제작
 - 예약정보입력 페이지
 - 달력 제작 및 달력 날짜 선택 기능, 날짜 계산 기능

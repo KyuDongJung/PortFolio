@@ -1,5 +1,6 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Kyu&nbsp;Dong&nbsp;Jung&fontSize=90)
-
+<div align=center>
+	<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Kyu%20Dong%20Jung&fontSize=90" />	
+</div>
 
 # PortFolio
 
@@ -34,16 +35,21 @@
   JavaScript에서 getJson 이용 중기, 단기예보 및 OpenWeather 날씨데이터 사용
   
 - 예약정보입력 페이지
-  달력 제작 및 달력 날짜 선택 기능, 날짜 계산 기능(시작 날짜와 종료 날짜 선택시 x박x일 로 자동계산)
+  달력 제작 및 달력 날짜 선택 기능, 날짜 계산 기능
+  (시작 날짜와 종료 날짜 선택시 x박x일 로 자동계산)
   인원 선택 및 예약자 정보 자동입력(로그인 Session의 정보 가져오기)
   
 - 선택한 숙박일수와 인원 선택에 따른 가격 계산
-  선택한 월이 성수기(6, 7, 8월) or 비수기 에 따라 Ajax이용 DB에 저장된 성수기, 비수기 가격을 달리 가져옴
+  선택한 월이 성수기(6, 7, 8월) or 비수기 에 따라 Ajax이용
+  DB에 저장된 성수기, 비수기 가격을 달리 가져옴
   선택한 인원을 LocalStorage에 담아 선택한 박 수와 함께 가격계산
   
 - 예약정보 확인 페이지 및 결제방식 선택
-  예약정보 입력후 예약하기 버튼 클릭시 form태그를 이용 정보확인 페이지로 넘겨줌
+  예약정보 입력후 예약하기 버튼 클릭시 form태그를 이용
+  정보확인 페이지로 넘겨줌
+  
   - 넘겨주는 데이터 => 예약자 정보, 예약인원, 결제가격
+ 
   결제 방식(무통장 입금, 카드 결제) 선택
   무통장 입금 선택 시 cash결제 및 예약 대기 상태로 DB에 삽입
   카드결제 선택 시 card결제 및 예약 완료 상태로 DB에 삽입
@@ -52,7 +58,8 @@
   관리자 계정으로 접속 시 모든 회원의 예약현황 조회 가능
   카드결제로 예약 완료된 내역은 예약으로 표시 및 취소가능
   무통장 입금으로 예약 대기 내역은 예약대기로 표시 및 최소가능
-  입금 확인 시 예약 대기 내역을 예약 확정으로 전환 가능 => 취소및 예약 확정버튼 클릭시 DB에 업데이트.
+  입금 확인 시 예약 대기 내역을 예약 확정으로 전환 가능
+   => 취소및 예약 확정버튼 클릭시 DB에 업데이트.
   
 <div align="center">
     	<h3>Tech Stack</h3>
@@ -81,6 +88,6 @@
 	<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
 </div>
 
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
-  
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer"/>
+</div>

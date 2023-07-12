@@ -32,7 +32,7 @@ Final Project
 - 결제 방식에 따른 예약상태 구분 및 관리자 로그인 시 예약 확정 기능
 
 <div align="center">
-    	<h3>Tech Stack</h3><br><br>
+    	<h3>Tech Stack</h3>
 	<h4>언어</h4>
 	<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white" />
 	<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" />

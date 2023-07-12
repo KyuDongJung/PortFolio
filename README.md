@@ -1,6 +1,6 @@
 # PortFolio
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=KyuDogJung&fontSize=90" />
-Final Project
+<span align="center">Final Project</span>
 
 ## Camp with Us
 

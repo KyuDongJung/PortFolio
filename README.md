@@ -1,5 +1,5 @@
 # PortFolio
-<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Kyu%nbspDog%nbspJung&fontSize=90" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Kyu%nbsp;Dog%nbsp;Jung&fontSize=90" />
 <div align="center"><h2>Final Project</h2></div>
 
 ## Camp with Us

@@ -1,7 +1,8 @@
-# PortFolio
 <div align="center">
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Kyu&nbsp;Dong&nbsp;Jung&fontSize=90)
 </div>
+# PortFolio
+
 <div align="center"><h2>Final Project</h2></div>
 
 <div align="center">
